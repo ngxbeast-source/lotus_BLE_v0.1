@@ -18,6 +18,7 @@
 #     artifact-name: corne_left_with_studio
 #
 ---
+include:
   - board: nice_nano
     shield: lotus58_left
   - board: nice_nano

@@ -43,6 +43,8 @@
 # Removed   #include <dt-bindings/zmk/rgb.h> #include <dt-bindings/zmk/ext_power.h>  from .keymap file. It was unnecessary. instead added #include <dt-bindings/led/led.h> to the .dtsi
 
 # 19FEB 26 
-# Undid most changes:
+# Undid most off today's changes:
 # Removed the lotus and nice nano folders from the board/shield folder. I think it was causing an error w/ ZMK superceeding the other files and prioritizing that one first. Only kept necessary files. like .dtsi and .overlay
 # Added            #include <dt-bindings/zmk/rgb.h> #include <dt-bindings/zmk/ext_power.h>      to the .dtsi
+
+commented the RGB codes, again, when I have abetter meal I'll lokk over it again.

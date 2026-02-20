@@ -1,4 +1,5 @@
 #include <physical_layouts.dtsi>
+#include "lotus58.overlay"
 
 / {
     physical_layout0: physical_layout_0 {

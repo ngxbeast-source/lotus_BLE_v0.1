@@ -36,9 +36,15 @@
 / {
     chosen {
       zmk,battery = &vbatt;
+       zmk,underglow = &underglow;
     };
 
     vbatt: vbatt {
         compatible = "zmk,battery-nrf-vddh";
+    };
+
+        underglow: underglow {
+        compatible = "zmk,underglow";
+        chain-length = <10>; /* change to your LED count */
     };
 };

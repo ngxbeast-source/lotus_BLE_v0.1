@@ -11,6 +11,7 @@
 #include <dt-bindings/zmk/ext_power.h> 
 
 #include "lotus58-layouts.dtsi"
+#include "lotus58.overlay"
 
 / {
     chosen {
